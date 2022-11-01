@@ -30,8 +30,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-apikey = "637e5e27d4fd6d46a4bb3716dfa0a225"
-
 
 def cache_response(func):
     response = None
@@ -44,6 +42,9 @@ def cache_response(func):
         return response
 
     return wrapper
+
+
+apikey = "GNews api_key here"
 
 
 @app.get("/")
