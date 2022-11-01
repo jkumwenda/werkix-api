@@ -10,13 +10,13 @@ wekix api is a simple api that fetches news article from GNews API and implement
 
 ### Dependencies
 
-* Python 3.5+, Ubuntue 18+(Optional), Windows 10+ (Optional)
+* Python 3.5+, Ubuntu 18+(Optional), Windows 10+ (Optional)
 
 ### Installing
 
 * Clone the project
 * Generate Gnews apikey by registering an account on [Gnews](https://gnews.io/)
-* Change ***apikey = "GNews api_key here"*** with your API Key
+* Change ***apikey = "GNews api_key here"*** with your API Key in main.py
 * Install the following python library on your computer running Linux or Windows by running the commands 
 ```
 pip3 install fastapi
