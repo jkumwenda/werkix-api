@@ -31,5 +31,7 @@ pip3 install urllib3
 ```
 uvicorn main:app --reload
 ```
+*Usually the API will run on default port 8000.
+*Type [http://localhost:8000/docs](http://localhost:8000/docs) on the browser for a graphical documentation of the API and testing 
 ## Authors
 [Joel Kumwenda](https://www.linkedin.com/in/joel-kumwenda/)
